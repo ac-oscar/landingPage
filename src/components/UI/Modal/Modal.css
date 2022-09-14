@@ -1,0 +1,6 @@
+.Modal__Body {
+    background-image: url('../../../images/modal_candle.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+}
