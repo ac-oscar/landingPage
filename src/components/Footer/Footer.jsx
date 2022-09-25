@@ -1,7 +1,6 @@
 import * as React from 'react'
 import * as classnames from 'classnames'
 import { LINKS } from '../../utils'
-import { StaticImage } from "gatsby-plugin-image"
 
 export default function Footer() {
   let linkClassname = classnames('block py-2 pr-4 rounded md:border-0 md:p-0');
@@ -12,9 +11,6 @@ export default function Footer() {
         <div className="flex flex-wrap text-left lg:text-left">
           <div className="w-full lg:w-6/12 px-4">
             <h4 className="text-3xl font-sans text-blueGray-700">Atendemos en colombia y en el extrajero!</h4>
-            <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
-              Find us on any of these platforms, we respond 1-2 business days.
-            </h5>
             <div className="fixed right-7 bottom-7 opacity-100">
               <a href="https://api.whatsapp.com/send?phone=57123456789" target="_blank" title="chatea con nosotros">
                 <span>

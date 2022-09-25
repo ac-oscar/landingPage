@@ -4,7 +4,7 @@ import { Footer } from '../Footer'
 
 function Layout({ children }) {
   return (
-    <div className="bg-gradient-to-r from-black via-red-400 to-black">
+    <div className="bg-black">
       <Header/>
       { children }
       <Footer/>

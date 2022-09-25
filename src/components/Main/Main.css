@@ -38,10 +38,15 @@ animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 #inicio .Image_Container {
-    background-image: url('../../images/image_4.jpg');
+    background-image: url('../../images/IMG-20220915-WA0051.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: inherit;
     background-attachment: fixed;
     aspect-ratio: 12/6;
+}
+
+.testimonial {
+    height: 400px;
+    width: 100%;
 }
