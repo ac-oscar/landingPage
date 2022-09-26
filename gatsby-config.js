@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `[Negocio]`,
-    keywords: 'Rituales, amarres, sexo, endulzamientos, unión, retornos, encantos, limpias',
+    title: `endulzamientos amor y amarres`,
+    keywords: 'amor, rituales, amarres, sexo, endulzamientos, unión, retornos, encantos, limpias',
     description: `Example project for the Gatsby Head API3`,
     image: `/gatsby-icon.png`,
     siteUrl: `https://www.yourdomain.tld`,

@@ -7,7 +7,6 @@ let ZERO                    = 0,
     DEFAULT_DELAY           = 6000,
     count                   = ZERO,
     EMPTY_OBJ               = Object.freeze({}),
-    EMPTY_ARY               = Object.freeze([]),
     FADE_ANIMATION_CLASS    = 'fade-anim',
     ANIMATION_END           = 'animationend';
 

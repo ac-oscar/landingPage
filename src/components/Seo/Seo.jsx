@@ -34,8 +34,8 @@ export default function SEO (_props) {
           {
             "@context": "https://schema.org",
             "@type": "Organization",
-            "url": "https://www.spookytech.com",
-            "name": "Spooky technologies",
+            "url": "https://www.endulzamientosamoryamarres.com",
+            "name": "Endulzamientos amor y amarres",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+5-601-785-8543",

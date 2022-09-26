@@ -2,7 +2,7 @@ import * as React from 'react'
 import * as classnames from 'classnames'
 
 let EMPTY_OBJ           = Object.freeze({}),
-    DEFAULT_SECTION_ID  = '#';
+    DEFAULT_SECTION_ID  = '';
 
 export default function Section(_props) {
     let props       = _props || EMPTY_OBJ,
