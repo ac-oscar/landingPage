@@ -23,11 +23,6 @@ export default function Carousel(_props) {
         removeAnimation                 = useCallback(() => {
             carouselRef.current.classList && carouselRef.current.classList.remove(FADE_ANIMATION_CLASS);
         }, []),
-        startCarousel                   = useCallback(() => {
-            carouselInterval.current = setInterval(() => {
-                handleOnNextClick();
-            }, delay);
-        }, []),
         updateState                     = useCallback((newState) => {
             setCurrentIndex(newState);
             carouselRef.current.classList && carouselRef.current.classList.add(FADE_ANIMATION_CLASS);
@@ -35,18 +30,23 @@ export default function Carousel(_props) {
         handleOnNextClick               = useCallback(() => {
             count = (count + 1) % childrenLength;
             updateState(count);
-        }, []),
+        }, [childrenLength, updateState]),
+        startCarousel                   = useCallback(() => {
+            carouselInterval.current = setInterval(() => {
+                handleOnNextClick();
+            }, delay);
+        }, [delay, handleOnNextClick]),
         handleOnPrevClick               = useCallback(() => {
             count = (currentIndex + childrenLength - 1) % childrenLength;
             updateState(count);
-        }, []);
+        }, [childrenLength, currentIndex, updateState]);
 
     useEffect(() => {
         carouselRef.current.addEventListener &&  carouselRef.current.addEventListener(ANIMATION_END, removeAnimation);
         startCarousel();
 
         return () => clearInterval(carouselInterval.current);
-    }, []);
+    }, [removeAnimation, startCarousel]);
 
     return (
         <div ref={carouselRef} className="Carousel w-full select-none relative">
