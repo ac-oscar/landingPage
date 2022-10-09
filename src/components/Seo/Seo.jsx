@@ -34,7 +34,7 @@ export default function SEO (_props) {
             "name": "Endulzamientos amor y amarres",
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+5-601-785-8543",
+              "telephone": "+13476921302",
               "hoursAvailable" : {
                 "@type": "OpeningHoursSpecification",
                 dayOfWeek : [
