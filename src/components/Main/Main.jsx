@@ -63,8 +63,8 @@ export default function Main() {
                     }
                 </Section__Content>
                 <Section__Content className="flex justify-center md:justify-between mt-10 w-full">
-                    <Button as="a" className="hidden md:block" attributes={{ href: 'https://api.whatsapp.com/send?phone=57123456789', target: '_blank' }} text="Chatea con nosotros" title="Chatea con nosotros"/>
-                    <Button as="a" attributes={{ href: 'https://api.whatsapp.com/send?phone=57123456789', target: '_blank' }} text="Chatea con nosotros" title="Chatea con nosotros"/>
+                    <Button as="a" className="hidden md:block" attributes={{ href: 'https://api.whatsapp.com/send?phone=13476921302', target: '_blank' }} text="Chatea con nosotros" title="Chatea con nosotros"/>
+                    <Button as="a" attributes={{ href: 'https://api.whatsapp.com/send?phone=13476921302', target: '_blank' }} text="Chatea con nosotros" title="Chatea con nosotros"/>
                 </Section__Content>
             </Section>
             <Section sectionId="testimonios" className="px-4 mt-10 flex justify-center items-center flex-col">
@@ -103,8 +103,8 @@ export default function Main() {
                     </Carousel>
                 </Section__Content>
                 <Section__Content className="flex justify-center md:justify-between mt-10 w-full">
-                    <Button as="a" className="hidden md:block" attributes={{ href: 'https://api.whatsapp.com/send?phone=57123456789', target: '_blank' }} text="Qué estás esperando?" title="Qué estás esperando?"/>
-                    <Button as="a" attributes={{ href: 'https://api.whatsapp.com/send?phone=57123456789', target: '_blank' }} text="Qué estás esperando?" title="Qué estás esperando?"/>
+                    <Button as="a" className="hidden md:block" attributes={{ href: 'https://api.whatsapp.com/send?phone=13476921302', target: '_blank' }} text="Qué estás esperando?" title="Qué estás esperando?"/>
+                    <Button as="a" attributes={{ href: 'https://api.whatsapp.com/send?phone=13476921302', target: '_blank' }} text="Qué estás esperando?" title="Qué estás esperando?"/>
                 </Section__Content>
             </Section>
         </main>

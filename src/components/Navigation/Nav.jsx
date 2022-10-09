@@ -25,7 +25,7 @@ export default function Nav() {
     <div className="sticky top-0 z-10 bg-black">
         <nav className="p-5">
           <div className={containerClassname}>
-            <Button as="a" attributes={{ href: 'https://api.whatsapp.com/send?phone=57123456789', target: '_blank' }} text="Comunicate con nosotros!!" title="Comunicate con nosotros!!" />
+            <Button as="a" attributes={{ href: 'https://api.whatsapp.com/send?phone=13476921302', target: '_blank' }} text="Comunicate con nosotros!!" title="Comunicate con nosotros!!" />
             <Button attributes={{ dataCollapseToggle: 'navbar-default', type: 'button', ariaControls: 'navbar-default', ariaExpanded: 'false' }} onClick={handleToggleClick} className={toggleMenuClassname} overrideClassName>
               <span className="sr-only">Abrir Menu</span>
               <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
